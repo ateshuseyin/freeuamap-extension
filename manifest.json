@@ -1,6 +1,6 @@
 {
-  "name": "satellite maps on liveuamap",
-  "description": "satellite maps on liveuamap",
+  "name": "Alternative maps on liveuamap",
+  "description": "Alternative maps on liveuamap",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action": {

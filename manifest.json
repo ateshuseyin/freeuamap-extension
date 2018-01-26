@@ -1,0 +1,14 @@
+{
+  "name": "satellite maps on liveuamap",
+  "description": "satellite maps on liveuamap",
+  "version": "1.0",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [{
+    "js": ["contentscript.js"],
+    "matches": ["https://*.liveuamap.com/*"]
+  }],
+  "web_accessible_resources": ["freeuamap.js"]
+}

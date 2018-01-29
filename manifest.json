@@ -6,9 +6,20 @@
   "browser_action": {
     "default_icon": "icon.png"
   },
-  "content_scripts": [{
-    "js": ["contentscript.js"],
-    "matches": ["https://*.liveuamap.com/*"]
-  }],
-  "web_accessible_resources": ["freeuamap.js"]
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "js": [
+        "contentscript.js"
+      ],
+      "matches": [
+        "https://*.liveuamap.com/*"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "freeuamap.js"
+  ]
 }
